@@ -2,11 +2,6 @@ package ru.zzzadruga.model;
 
 import java.io.Serializable;
 import java.util.Objects;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
 import org.apache.ignite.cache.query.annotations.QuerySqlField;
 
 public class CountryLanguage implements Serializable {
